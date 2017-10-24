@@ -134,6 +134,16 @@
             </headerDefinitions>
           </configuration>
         </plugin>
+        <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>findbugs-maven-plugin</artifactId>
+            <version>3.0.4</version>
+            <configuration>
+                <effort>Max</effort>
+                <findbugsXmlOutput>true</findbugsXmlOutput>
+                <xmlOutput>true</xmlOutput>
+            </configuration>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>
