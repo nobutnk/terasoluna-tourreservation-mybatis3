@@ -2,7 +2,7 @@
 <Context>
   <Loader
     className="org.apache.catalina.loader.VirtualWebappLoader"
-    virtualClasspath="/opt/environment/lib/*.jar"/>
+    virtualClasspath="/opt/app/environment/lib/*.jar"/>
   <JarScanner scanAllDirectories="true"/>
 </Context>
 

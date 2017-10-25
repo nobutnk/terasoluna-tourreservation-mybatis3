@@ -41,7 +41,7 @@
             <artifactId>maven-war-plugin</artifactId>
             <!-- <version>2.5</version> -->
             <configuration>
-              <containerConfigXML>src/main/webapp/META-INF/context.xml</containerConfigXML>
+              <containerConfigXML>config/META-INF/context.xml</containerConfigXML>
             </configuration>
           </plugin>
         </plugins>
